@@ -8,3 +8,184 @@ body {
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  /* background: linear-gradient(135deg, #f6d365, #fda085, #f6d365); */
+  background-color: #212529;
+  /* border: 2px solid red; */
+}
+
+/* HOME */
+.home {
+  text-align: center;
+}
+
+.home h2,
+h3 {
+  margin-bottom: 10px;
+  color: white;
+}
+
+.start {
+  border: none;
+  padding: 6px 25px;
+  background-color: #fff;
+  color: black;
+  font-weight: 700;
+  transition: all 0.1s ease-in-out;
+}
+
+.start:hover {
+  background-color: black;
+  color: white;
+}
+
+/* FORM */
+
+.back-tohome {
+  top: 20px;
+  left: 20px;
+  position: absolute;
+  color: white;
+  text-decoration: none;
+}
+
+.form {
+  /* width: 400px;
+  height: 450px;
+  background-color: red; */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px 20px;
+}
+
+.head {
+  text-align: center;
+}
+
+.head h1 {
+  color: white;
+  letter-spacing: 2px;
+}
+.head p {
+  color: white;
+}
+
+form {
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+label {
+  width: 70%;
+  display: flex;
+}
+
+.icon-input {
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #212529;
+}
+
+.icon-input i {
+  color: white;
+}
+
+input {
+  border: none;
+  outline: none;
+  padding: 10px;
+  width: 100%;
+  background-color: black;
+  caret-color: white;
+  color: white;
+}
+
+.help {
+  width: 70%;
+  height: 15px;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.remember {
+  width: 50%;
+  display: flex;
+}
+
+.remember input {
+  width: 20px;
+}
+
+.help p,
+.help a {
+  font-size: 10px;
+}
+
+.help a {
+  color: black;
+}
+
+.btn {
+  background-color: rgba(255, 255, 255, 0.705);
+  width: 90%;
+  border-radius: 50px;
+  height: 40px;
+  border: none;
+  font-size: 15px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  transition: all 0.1s ease-in-out;
+}
+
+.btn:hover {
+  background-color: white;
+}
+
+h6 {
+  letter-spacing: 1.5px;
+  color: white;
+}
+
+h6 a {
+  color: red;
+}
+
+/* FORM LOGIN */
+.enter-login {
+  width: 350px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  background-color: rgba(255, 255, 255, 0.705);
+  border-radius: 30px;
+}
+
+/* FORM REGISTER */
+.enter-register {
+  width: 350px;
+  height: 300px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  background-color: rgba(255, 255, 255, 0.705);
+  border-radius: 30px;
+}
