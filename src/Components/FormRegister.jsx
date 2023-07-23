@@ -10,7 +10,7 @@ export default function FormRegister() {
 
   return (
     <div className="form">
-      <Link className="back-tohome" to="/">
+      <Link className="back-tohome" to="/form-loginv2/">
         Back
       </Link>
       <div className="head">
