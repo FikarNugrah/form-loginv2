@@ -38,14 +38,14 @@ export default function FormRegister() {
             <input type="password" placeholder="Password" id="password" />
           </label>
           <div className="help">
-            <a href="#">Forgot Password ?</a>
+            <Link to="/form-loginv2/help">Forgot Password ?</Link>
           </div>
         </div>
         <button className="btn" type="submit">
           Register
         </button>
         <h6>
-          Have an account ? <Link to="/login">Login</Link>
+          Have an account ? <Link to="/form-loginv2/login">Login</Link>
         </h6>
       </form>
     </div>

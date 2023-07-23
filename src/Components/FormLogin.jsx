@@ -35,14 +35,15 @@ export default function FormLogin() {
               <input type="checkbox" id="remember" />
               <p>Remember Me</p>
             </label>
-            <a href="#">Forgot Password ?</a>
+            <Link to="/form-loginv2/help">Forgot Password ?</Link>
           </div>
         </div>
         <button className="btn" type="submit">
           Login
         </button>
         <h6>
-          Don't have an account ? <Link to="/register">Register</Link>
+          Don't have an account ?
+          <Link to="/form-loginv2/register">Register</Link>
         </h6>
       </form>
     </div>

@@ -6,7 +6,7 @@ export default function Home() {
     <div className="home">
       <h3>HALLO..</h3>
       <h2>Welcome to my Site</h2>
-      <button onClick={() => navigate("/login")} className="start">
+      <button onClick={() => navigate("/form-loginv2/login")} className="start">
         Get Started
       </button>
     </div>
